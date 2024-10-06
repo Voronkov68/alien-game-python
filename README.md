@@ -1,1 +1,1 @@
-# alien-game-python
+# alien-game-python game from python book Erich Metis
