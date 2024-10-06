@@ -145,7 +145,7 @@ class AlienInvasion:
 				self.stats.score += self.settings.alien_points * len(aliens)
 			self.stats.score += self.settings.alien_points
 			self.sb.prep_score()
-			self.check_high_score()
+			self.sb.check_high_score()
 		if not self.aliens:
 			self.settings.increase_speed()
 			self.stats.level += 1
